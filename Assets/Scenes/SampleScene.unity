@@ -199,7 +199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TestNumber: 1000000
   TargetObject: {fileID: 350118382}
-  StartKey: 32
+  StartKey: 257
   TestedFunctions:
     FunctionsList:
     - rid: 3394867642841956648
@@ -295,7 +295,7 @@ MonoBehaviour:
         Inputs:
         - FieldName: Formula
           Value:
-            rid: 3394867642841957308
+            rid: 3394867647047008632
           SupportedTypes: []
           AllowRename: 0
           InEdition: 0
@@ -322,7 +322,7 @@ MonoBehaviour:
         LocalValue: 0
         Variable: {fileID: 11400000, guid: 29b42b49248be444e9a6104a29fad88e, type: 2}
         DisplayedInInspector: 0
-    - rid: 3394867642841957308
+    - rid: 3394867647047008632
       type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
       data:
         FormulaValue: Increment++;
@@ -448,8 +448,303 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 350118383}
+  - {fileID: 849116015}
+  - {fileID: 1816980791}
+  - {fileID: 1863529622}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &849116014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 849116015}
+  - component: {fileID: 849116018}
+  - component: {fileID: 849116017}
+  - component: {fileID: 849116016}
+  m_Layer: 0
+  m_Name: TestRandomVec2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &849116015
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849116014}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 523507740}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &849116016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849116014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa02ab172b54c0ab70dee3def9468e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TestNumber: 1000000
+  TargetObject: {fileID: 849116014}
+  StartKey: 258
+  TestedFunctions:
+    FunctionsList:
+    - rid: 3394867647047008296
+    GlobalVariables:
+    - FieldName: Vec
+      Value:
+        rid: 3394867647047008298
+      SupportedTypes:
+      - m_Name: AnyTypeReference
+        m_AssemblyQualifiedName: VisualFunctions.AnyTypeReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: BoolReference
+        m_AssemblyQualifiedName: VisualFunctions.BoolReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ComponentOfGameObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ComponentOfGameObjectReference,
+          VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: FloatReference
+        m_AssemblyQualifiedName: VisualFunctions.FloatReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: IntReference
+        m_AssemblyQualifiedName: VisualFunctions.IntReference, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ListOfReference
+        m_AssemblyQualifiedName: VisualFunctions.ListOfReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: StringReference
+        m_AssemblyQualifiedName: VisualFunctions.StringReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: AnimationCurveReference
+        m_AssemblyQualifiedName: VisualFunctions.AnimationCurveReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: QuaternionReference
+        m_AssemblyQualifiedName: VisualFunctions.QuaternionReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: RectReference
+        m_AssemblyQualifiedName: VisualFunctions.RectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ScriptableObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ScriptableObjectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector2Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector2Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector3Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector3Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomFunction
+        m_AssemblyQualifiedName: VisualFunctions.CustomFunction, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomValue
+        m_AssemblyQualifiedName: VisualFunctions.CustomValue, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Formula
+        m_AssemblyQualifiedName: VisualFunctions.Formula, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      AllowRename: 0
+      InEdition: 0
+      EditValue: Vec
+      AcceptAnyMethod: 0
+    - FieldName: RandRange
+      Value:
+        rid: 3394867647047008299
+      SupportedTypes:
+      - m_Name: AnyTypeReference
+        m_AssemblyQualifiedName: VisualFunctions.AnyTypeReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: BoolReference
+        m_AssemblyQualifiedName: VisualFunctions.BoolReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ComponentOfGameObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ComponentOfGameObjectReference,
+          VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: FloatReference
+        m_AssemblyQualifiedName: VisualFunctions.FloatReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: IntReference
+        m_AssemblyQualifiedName: VisualFunctions.IntReference, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ListOfReference
+        m_AssemblyQualifiedName: VisualFunctions.ListOfReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: StringReference
+        m_AssemblyQualifiedName: VisualFunctions.StringReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: AnimationCurveReference
+        m_AssemblyQualifiedName: VisualFunctions.AnimationCurveReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: QuaternionReference
+        m_AssemblyQualifiedName: VisualFunctions.QuaternionReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: RectReference
+        m_AssemblyQualifiedName: VisualFunctions.RectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ScriptableObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ScriptableObjectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector2Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector2Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector3Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector3Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomFunction
+        m_AssemblyQualifiedName: VisualFunctions.CustomFunction, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomValue
+        m_AssemblyQualifiedName: VisualFunctions.CustomValue, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Formula
+        m_AssemblyQualifiedName: VisualFunctions.Formula, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      AllowRename: 0
+      InEdition: 0
+      EditValue: RandRange
+      AcceptAnyMethod: 0
+    AllowGlobalVariables: 1
+    AllowImport: 1
+    FoldoutOpen: 1
+    GlobalValuesFoldoutOpen: 1
+    TemporaryGlobalVariables: []
+    ImportedFields: []
+    ImportedFieldsFoldoutOpen: 0
+  Vec2: {fileID: 11400000, guid: 29723c34d4527e9458963ba95aefbd95, type: 2}
+  RandomRange: {fileID: 11400000, guid: 538b449f0aa365c4788301c3afbe6708, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 3394867647047008296
+      type: {class: Evaluate, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FoldoutOpen: 1
+        Enabled: 1
+        Inputs:
+        - FieldName: Formula
+          Value:
+            rid: 3394867647047008631
+          SupportedTypes: []
+          AllowRename: 0
+          InEdition: 0
+          EditValue: 
+          AcceptAnyMethod: 1
+        Outputs: []
+        EditableAttributes: []
+        AllowAddInputs: 1
+        FunctionInputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 1
+          AllowVoidMethods: 1
+        AllowAddOutputs: 0
+        FunctionOutputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 0
+          AllowVoidMethods: 0
+    - rid: 3394867647047008298
+      type: {class: Vector2Reference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 0
+        LocalValue: {x: 0, y: 0}
+        Variable: {fileID: 11400000, guid: 29723c34d4527e9458963ba95aefbd95, type: 2}
+        DisplayedInInspector: 0
+    - rid: 3394867647047008299
+      type: {class: FloatReference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 0
+        LocalValue: 0
+        Variable: {fileID: 11400000, guid: 538b449f0aa365c4788301c3afbe6708, type: 2}
+        DisplayedInInspector: 0
+    - rid: 3394867647047008631
+      type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FormulaValue: 'Vec.x = Random.Range(-RandRange, RandRange);
+
+          Vec.y
+          = Random.Range(-RandRange, RandRange);'
+--- !u!114 &849116017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849116014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: d5cd14e9137867b439afc271e738ba89, type: 2}
+--- !u!114 &849116018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849116014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Random
+      Range","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Vec2","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1511611838
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,6 +805,761 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1816980790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1816980791}
+  - component: {fileID: 1816980794}
+  - component: {fileID: 1816980793}
+  - component: {fileID: 1816980792}
+  m_Layer: 0
+  m_Name: TestListLoop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1816980791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816980790}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 523507740}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1816980792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816980790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4562412e5864612a1823c90ae36815d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TestNumber: 1000000
+  TargetObject: {fileID: 1816980790}
+  StartKey: 259
+  TestedFunctions:
+    FunctionsList:
+    - rid: 3394867647047008300
+    GlobalVariables:
+    - FieldName: IntList
+      Value:
+        rid: 3394867647047008302
+      SupportedTypes:
+      - m_Name: AnyTypeReference
+        m_AssemblyQualifiedName: VisualFunctions.AnyTypeReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: BoolReference
+        m_AssemblyQualifiedName: VisualFunctions.BoolReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ComponentOfGameObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ComponentOfGameObjectReference,
+          VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: FloatReference
+        m_AssemblyQualifiedName: VisualFunctions.FloatReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: IntReference
+        m_AssemblyQualifiedName: VisualFunctions.IntReference, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ListOfReference
+        m_AssemblyQualifiedName: VisualFunctions.ListOfReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: StringReference
+        m_AssemblyQualifiedName: VisualFunctions.StringReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: AnimationCurveReference
+        m_AssemblyQualifiedName: VisualFunctions.AnimationCurveReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: QuaternionReference
+        m_AssemblyQualifiedName: VisualFunctions.QuaternionReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: RectReference
+        m_AssemblyQualifiedName: VisualFunctions.RectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ScriptableObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ScriptableObjectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector2Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector2Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector3Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector3Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomFunction
+        m_AssemblyQualifiedName: VisualFunctions.CustomFunction, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomValue
+        m_AssemblyQualifiedName: VisualFunctions.CustomValue, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Formula
+        m_AssemblyQualifiedName: VisualFunctions.Formula, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      AllowRename: 0
+      InEdition: 0
+      EditValue: IntList
+      AcceptAnyMethod: 0
+    AllowGlobalVariables: 1
+    AllowImport: 1
+    FoldoutOpen: 1
+    GlobalValuesFoldoutOpen: 1
+    TemporaryGlobalVariables: []
+    ImportedFields: []
+    ImportedFieldsFoldoutOpen: 0
+  IntegerList: {fileID: 11400000, guid: 77aa9f44ff3968048a8cd5bf7ad0e68e, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 3394867647047008300
+      type: {class: Evaluate, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FoldoutOpen: 1
+        Enabled: 1
+        Inputs:
+        - FieldName: Formula
+          Value:
+            rid: 3394867647047008630
+          SupportedTypes: []
+          AllowRename: 0
+          InEdition: 0
+          EditValue: 
+          AcceptAnyMethod: 1
+        Outputs: []
+        EditableAttributes: []
+        AllowAddInputs: 1
+        FunctionInputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 1
+          AllowVoidMethods: 1
+        AllowAddOutputs: 0
+        FunctionOutputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 0
+          AllowVoidMethods: 0
+    - rid: 3394867647047008302
+      type: {class: ListOfReference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 0
+        LocalValue:
+          ListValue:
+            rid: 3394867647047008303
+        Variable: {fileID: 11400000, guid: 77aa9f44ff3968048a8cd5bf7ad0e68e, type: 2}
+        DisplayedInInspector: 0
+    - rid: 3394867647047008303
+      type: {class: 'ListOf`1[[System.Int32, mscorlib]]', ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        ListValue: 
+    - rid: 3394867647047008630
+      type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FormulaValue: IntList.Add(IntList.Count);
+--- !u!114 &1816980793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816980790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e2a5f6ec44f9c0945b25e83300b9de90, type: 2}
+--- !u!114 &1816980794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816980790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"IntList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!1 &1863529621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1863529622}
+  - component: {fileID: 1863529625}
+  - component: {fileID: 1863529624}
+  - component: {fileID: 1863529626}
+  m_Layer: 0
+  m_Name: TestListMultiply
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1863529622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863529621}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 523507740}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1863529624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863529621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: fbeaf3152b9e72c439431434e163e8f6, type: 2}
+--- !u!114 &1863529625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863529621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"PairSourceList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ResultList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PairCount","value":{"$content":50,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &1863529626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863529621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a047a3d693c840e89d14c7d7884ef06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TestNumber: 1000
+  TargetObject: {fileID: 1863529621}
+  StartKey: 260
+  TestedFunctions:
+    FunctionsList:
+    - rid: 3394867647047008474
+    - rid: 3394867647047008458
+    GlobalVariables:
+    - FieldName: PairSourceList
+      Value:
+        rid: 3394867647047008462
+      SupportedTypes:
+      - m_Name: AnyTypeReference
+        m_AssemblyQualifiedName: VisualFunctions.AnyTypeReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: BoolReference
+        m_AssemblyQualifiedName: VisualFunctions.BoolReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ComponentOfGameObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ComponentOfGameObjectReference,
+          VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: FloatReference
+        m_AssemblyQualifiedName: VisualFunctions.FloatReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: IntReference
+        m_AssemblyQualifiedName: VisualFunctions.IntReference, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ListOfReference
+        m_AssemblyQualifiedName: VisualFunctions.ListOfReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: StringReference
+        m_AssemblyQualifiedName: VisualFunctions.StringReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: AnimationCurveReference
+        m_AssemblyQualifiedName: VisualFunctions.AnimationCurveReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: QuaternionReference
+        m_AssemblyQualifiedName: VisualFunctions.QuaternionReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: RectReference
+        m_AssemblyQualifiedName: VisualFunctions.RectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ScriptableObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ScriptableObjectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector2Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector2Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector3Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector3Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomFunction
+        m_AssemblyQualifiedName: VisualFunctions.CustomFunction, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomValue
+        m_AssemblyQualifiedName: VisualFunctions.CustomValue, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Formula
+        m_AssemblyQualifiedName: VisualFunctions.Formula, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      AllowRename: 0
+      InEdition: 0
+      EditValue: PairSourceList
+      AcceptAnyMethod: 0
+    - FieldName: ResultList
+      Value:
+        rid: 3394867647047008461
+      SupportedTypes:
+      - m_Name: AnyTypeReference
+        m_AssemblyQualifiedName: VisualFunctions.AnyTypeReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: BoolReference
+        m_AssemblyQualifiedName: VisualFunctions.BoolReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ComponentOfGameObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ComponentOfGameObjectReference,
+          VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: FloatReference
+        m_AssemblyQualifiedName: VisualFunctions.FloatReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: IntReference
+        m_AssemblyQualifiedName: VisualFunctions.IntReference, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ListOfReference
+        m_AssemblyQualifiedName: VisualFunctions.ListOfReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: StringReference
+        m_AssemblyQualifiedName: VisualFunctions.StringReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: AnimationCurveReference
+        m_AssemblyQualifiedName: VisualFunctions.AnimationCurveReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: QuaternionReference
+        m_AssemblyQualifiedName: VisualFunctions.QuaternionReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: RectReference
+        m_AssemblyQualifiedName: VisualFunctions.RectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ScriptableObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ScriptableObjectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector2Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector2Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector3Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector3Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomFunction
+        m_AssemblyQualifiedName: VisualFunctions.CustomFunction, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomValue
+        m_AssemblyQualifiedName: VisualFunctions.CustomValue, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Formula
+        m_AssemblyQualifiedName: VisualFunctions.Formula, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      AllowRename: 0
+      InEdition: 0
+      EditValue: ResultList
+      AcceptAnyMethod: 0
+    - FieldName: PairCount
+      Value:
+        rid: 3394867647047008460
+      SupportedTypes:
+      - m_Name: AnyTypeReference
+        m_AssemblyQualifiedName: VisualFunctions.AnyTypeReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: BoolReference
+        m_AssemblyQualifiedName: VisualFunctions.BoolReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ComponentOfGameObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ComponentOfGameObjectReference,
+          VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: FloatReference
+        m_AssemblyQualifiedName: VisualFunctions.FloatReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: IntReference
+        m_AssemblyQualifiedName: VisualFunctions.IntReference, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ListOfReference
+        m_AssemblyQualifiedName: VisualFunctions.ListOfReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: StringReference
+        m_AssemblyQualifiedName: VisualFunctions.StringReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: AnimationCurveReference
+        m_AssemblyQualifiedName: VisualFunctions.AnimationCurveReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: QuaternionReference
+        m_AssemblyQualifiedName: VisualFunctions.QuaternionReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: RectReference
+        m_AssemblyQualifiedName: VisualFunctions.RectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ScriptableObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ScriptableObjectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector2Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector2Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector3Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector3Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomFunction
+        m_AssemblyQualifiedName: VisualFunctions.CustomFunction, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomValue
+        m_AssemblyQualifiedName: VisualFunctions.CustomValue, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Formula
+        m_AssemblyQualifiedName: VisualFunctions.Formula, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      AllowRename: 0
+      InEdition: 0
+      EditValue: PairCount
+      AcceptAnyMethod: 0
+    - FieldName: i
+      Value:
+        rid: 3394867647047008473
+      SupportedTypes:
+      - m_Name: AnyTypeReference
+        m_AssemblyQualifiedName: VisualFunctions.AnyTypeReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: BoolReference
+        m_AssemblyQualifiedName: VisualFunctions.BoolReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ComponentOfGameObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ComponentOfGameObjectReference,
+          VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: FloatReference
+        m_AssemblyQualifiedName: VisualFunctions.FloatReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: IntReference
+        m_AssemblyQualifiedName: VisualFunctions.IntReference, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ListOfReference
+        m_AssemblyQualifiedName: VisualFunctions.ListOfReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: StringReference
+        m_AssemblyQualifiedName: VisualFunctions.StringReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: AnimationCurveReference
+        m_AssemblyQualifiedName: VisualFunctions.AnimationCurveReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: QuaternionReference
+        m_AssemblyQualifiedName: VisualFunctions.QuaternionReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: RectReference
+        m_AssemblyQualifiedName: VisualFunctions.RectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ScriptableObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ScriptableObjectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector2Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector2Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector3Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector3Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomFunction
+        m_AssemblyQualifiedName: VisualFunctions.CustomFunction, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomValue
+        m_AssemblyQualifiedName: VisualFunctions.CustomValue, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Formula
+        m_AssemblyQualifiedName: VisualFunctions.Formula, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      AllowRename: 0
+      InEdition: 0
+      EditValue: i
+      AcceptAnyMethod: 0
+    AllowGlobalVariables: 1
+    AllowImport: 1
+    FoldoutOpen: 1
+    GlobalValuesFoldoutOpen: 1
+    TemporaryGlobalVariables: []
+    ImportedFields: []
+    ImportedFieldsFoldoutOpen: 0
+  PairSourceList: {fileID: 11400000, guid: 762da617fbe09394b8af04822a47b441, type: 2}
+  ResultList: {fileID: 11400000, guid: 56e0b5dc92f8f7f4395a106004e9e68e, type: 2}
+  PairCount: {fileID: 11400000, guid: 71ef22129ff537141a7289daddfd51b0, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 3394867647047008458
+      type: {class: Loop, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FoldoutOpen: 1
+        Enabled: 1
+        Inputs:
+        - FieldName: Condition
+          Value:
+            rid: 3394867647047008628
+          SupportedTypes: []
+          AllowRename: 0
+          InEdition: 0
+          EditValue: 
+          AcceptAnyMethod: 1
+        Outputs: []
+        EditableAttributes:
+        - FunctionsToLoop
+        AllowAddInputs: 1
+        FunctionInputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 1
+          AllowVoidMethods: 0
+        AllowAddOutputs: 0
+        FunctionOutputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 0
+          AllowVoidMethods: 0
+        FunctionsToLoop:
+          FunctionsList:
+          - rid: 3394867647047008466
+          GlobalVariables: []
+          AllowGlobalVariables: 0
+          AllowImport: 0
+          FoldoutOpen: 1
+          GlobalValuesFoldoutOpen: 1
+          TemporaryGlobalVariables: []
+          ImportedFields: []
+          ImportedFieldsFoldoutOpen: 1
+    - rid: 3394867647047008460
+      type: {class: IntReference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 0
+        LocalValue: 0
+        Variable: {fileID: 11400000, guid: 71ef22129ff537141a7289daddfd51b0, type: 2}
+        DisplayedInInspector: 0
+    - rid: 3394867647047008461
+      type: {class: ListOfReference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 0
+        LocalValue:
+          ListValue:
+            rid: -2
+        Variable: {fileID: 11400000, guid: 56e0b5dc92f8f7f4395a106004e9e68e, type: 2}
+        DisplayedInInspector: 0
+    - rid: 3394867647047008462
+      type: {class: ListOfReference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 0
+        LocalValue:
+          ListValue:
+            rid: -2
+        Variable: {fileID: 11400000, guid: 762da617fbe09394b8af04822a47b441, type: 2}
+        DisplayedInInspector: 0
+    - rid: 3394867647047008466
+      type: {class: Evaluate, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FoldoutOpen: 1
+        Enabled: 1
+        Inputs:
+        - FieldName: Formula
+          Value:
+            rid: 3394867647047008629
+          SupportedTypes: []
+          AllowRename: 0
+          InEdition: 0
+          EditValue: 
+          AcceptAnyMethod: 1
+        Outputs: []
+        EditableAttributes: []
+        AllowAddInputs: 1
+        FunctionInputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 1
+          AllowVoidMethods: 1
+        AllowAddOutputs: 0
+        FunctionOutputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 0
+          AllowVoidMethods: 0
+    - rid: 3394867647047008473
+      type: {class: IntReference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 1
+        LocalValue: 0
+        Variable: {fileID: 0}
+        DisplayedInInspector: 0
+    - rid: 3394867647047008474
+      type: {class: Evaluate, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FoldoutOpen: 1
+        Enabled: 1
+        Inputs:
+        - FieldName: Formula
+          Value:
+            rid: 3394867647047008627
+          SupportedTypes: []
+          AllowRename: 0
+          InEdition: 0
+          EditValue: 
+          AcceptAnyMethod: 1
+        Outputs: []
+        EditableAttributes: []
+        AllowAddInputs: 1
+        FunctionInputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 1
+          AllowVoidMethods: 1
+        AllowAddOutputs: 0
+        FunctionOutputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 0
+          AllowVoidMethods: 0
+    - rid: 3394867647047008627
+      type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FormulaValue: 'i = 0;
+
+          ResultList.Clear();'
+    - rid: 3394867647047008628
+      type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FormulaValue: i < PairSourceList.Count
+    - rid: 3394867647047008629
+      type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FormulaValue: 'ResultList.Add(PairSourceList[i] * PairSourceList[i + 1]);
+
+          i
+          += 2;'
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
