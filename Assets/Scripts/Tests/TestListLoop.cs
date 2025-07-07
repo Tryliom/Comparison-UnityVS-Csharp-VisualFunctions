@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using VisualFunctions;
+﻿using VisualFunctions;
 
 public class TestListLoop : TestVS
 {
@@ -12,7 +11,7 @@ public class TestListLoop : TestVS
 
     protected override void Run()
     {
-        var list = IntegerList.Value.ListValue.Value as List<int>;
+        var list = IntegerList.GetList<int>();
         
         list.Add(list.Count);
     }

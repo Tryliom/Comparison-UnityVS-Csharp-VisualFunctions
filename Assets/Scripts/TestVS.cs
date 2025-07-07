@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
+using UnityEngine.Profiling;
 using VisualFunctions;
 using CustomEvent = Unity.VisualScripting.CustomEvent;
 
@@ -23,49 +25,42 @@ public class TestVS : MonoBehaviour
 
         CustomEvent.Trigger(TargetObject, "Start");
         
-        var visualScriptTime = new Stopwatch();
-        visualScriptTime.Start();
+        var visualScript = new Counter(() => CustomEvent.Trigger(TargetObject, "Run"));
 
         for (var i = 0; i < TestNumber; i++)
         {
-            CustomEvent.Trigger(TargetObject, "Run");
+            visualScript.Test();
         }
 
-        visualScriptTime.Stop();
+        var visualScriptTime = visualScript.GetTime();
+        var visualScriptMemory = visualScript.GetAllocatedMemoryMb();
         
         OnStart();
         
-        var visualFunctionsTime = new Stopwatch();
-        visualFunctionsTime.Start();
+        var visualFunctions = new Counter(() => TestedFunctions.Invoke());
         
         for (var i = 0; i < TestNumber; i++)
         {
-            TestedFunctions.Invoke();
+            visualFunctions.Test();
         }
         
-        visualFunctionsTime.Stop();
+        var visualFunctionsTime = visualFunctions.GetTime();
+        var visualFunctionsMemory = visualFunctions.GetAllocatedMemoryMb();
         
-        var codeTime = new Stopwatch();
-        codeTime.Start();
+        var code = new Counter(Run);
         
         for (var i = 0; i < TestNumber; i++)
         {
-            Run();
+            code.Test();
         }
         
-        codeTime.Stop();
-        
-        var vsElapsed = visualScriptTime.ElapsedTicks / 10000f;
-        var vfElapsed = visualFunctionsTime.ElapsedTicks / 10000f;
-        var codeElapsed = codeTime.ElapsedTicks / 10000f;
+        var codeTime = code.GetTime();
+        var codeMemory = code.GetAllocatedMemoryMb();
 
         UnityEngine.Debug.Log($"{GetType().Name}: " +
-                              $"Unity VS {vsElapsed} ms " +
-                              $"| Visual Functions {vfElapsed} ms " +
-                              $"| Code {codeElapsed} ms\n" +
-                              $"Unity VS is {vsElapsed / codeElapsed}x slower than Code\n" +
-                              $"Unity VS is {vsElapsed / vfElapsed}x slower than Visual Functions\n" +
-                              $"Visual Functions is {vfElapsed / codeElapsed}x slower than Code");
+                              $"Unity VS {visualScriptTime} ms ({visualScriptMemory} MB) " +
+                              $"| Visual Functions {visualFunctionsTime} ms ({visualFunctionsMemory} MB) " +
+                              $"| Code {codeTime} ms ({codeMemory} MB)");
     }
 
     private void Update()
@@ -80,4 +75,50 @@ public class TestVS : MonoBehaviour
     
     [MethodImpl(MethodImplOptions.NoOptimization)]
     protected virtual void Run() {}
+    
+    private class Counter
+    {
+        private readonly Stopwatch _stopwatch;
+        private readonly Action _testedAction;
+        private Recorder _rec;
+
+        public Counter(Action testedAction)
+        {
+            _stopwatch = Stopwatch.StartNew();
+            _testedAction = testedAction;
+            _rec = Recorder.Get("GC.Alloc");
+            _rec.enabled = false;
+#if !UNITY_WEBGL
+            _rec.FilterToCurrentThread();
+#endif
+            _rec.enabled = true;
+        }
+
+        public void Test()
+        {
+            _testedAction?.Invoke();
+        }
+
+        public float GetTime()
+        {
+            _stopwatch.Stop();
+            return _stopwatch.ElapsedTicks / 10000f; // Convert ticks to milliseconds
+        }
+            
+        public float GetAllocatedMemoryMb()
+        {
+            if (_rec == null) return 0;
+
+            _rec.enabled = false;
+#if !UNITY_WEBGL
+            _rec.CollectFromAllThreads();
+#endif
+
+            var res = _rec.sampleBlockCount;
+                
+            _rec = null;
+                
+            return res / (1024f * 1024f);
+        }
+    }
 }

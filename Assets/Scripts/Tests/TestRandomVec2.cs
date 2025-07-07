@@ -13,11 +13,6 @@ public class TestRandomVec2 : TestVS
 
     protected override void Run()
     {
-        var vector2 = Vec2.Value;
-        
-        vector2.x = Random.Range(-RandomRange.Value, RandomRange.Value);
-        vector2.y = Random.Range(-RandomRange.Value, RandomRange.Value);
-        
-        Vec2.Value = vector2;
+        Vec2.Value = new Vector2(Random.Range(-RandomRange.Value, RandomRange.Value), Random.Range(-RandomRange.Value, RandomRange.Value));
     }
 }

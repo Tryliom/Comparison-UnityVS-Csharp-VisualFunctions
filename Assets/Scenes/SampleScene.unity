@@ -295,7 +295,7 @@ MonoBehaviour:
         Inputs:
         - FieldName: Formula
           Value:
-            rid: 3394867647047008632
+            rid: 3394867664591781895
           SupportedTypes: []
           AllowRename: 0
           InEdition: 0
@@ -322,7 +322,7 @@ MonoBehaviour:
         LocalValue: 0
         Variable: {fileID: 11400000, guid: 29b42b49248be444e9a6104a29fad88e, type: 2}
         DisplayedInInspector: 0
-    - rid: 3394867647047008632
+    - rid: 3394867664591781895
       type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
       data:
         FormulaValue: Increment++;
@@ -499,7 +499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fa02ab172b54c0ab70dee3def9468e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TestNumber: 1000000
+  TestNumber: 100000
   TargetObject: {fileID: 849116014}
   StartKey: 258
   TestedFunctions:
@@ -670,7 +670,7 @@ MonoBehaviour:
         Inputs:
         - FieldName: Formula
           Value:
-            rid: 3394867647047008631
+            rid: 3394867664591781894
           SupportedTypes: []
           AllowRename: 0
           InEdition: 0
@@ -704,13 +704,11 @@ MonoBehaviour:
         LocalValue: 0
         Variable: {fileID: 11400000, guid: 538b449f0aa365c4788301c3afbe6708, type: 2}
         DisplayedInInspector: 0
-    - rid: 3394867647047008631
+    - rid: 3394867664591781894
       type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
       data:
-        FormulaValue: 'Vec.x = Random.Range(-RandRange, RandRange);
-
-          Vec.y
-          = Random.Range(-RandRange, RandRange);'
+        FormulaValue: "Vec = new Vector2(\n\tRandom.Range(-RandRange, RandRange),
+          \n\tRandom.Range(-RandRange, RandRange)\n);"
 --- !u!114 &849116017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -949,7 +947,7 @@ MonoBehaviour:
         Inputs:
         - FieldName: Formula
           Value:
-            rid: 3394867647047008630
+            rid: 3394867664591781893
           SupportedTypes: []
           AllowRename: 0
           InEdition: 0
@@ -982,7 +980,7 @@ MonoBehaviour:
       type: {class: 'ListOf`1[[System.Int32, mscorlib]]', ns: VisualFunctions, asm: VisualFunctions}
       data:
         ListValue: 
-    - rid: 3394867647047008630
+    - rid: 3394867664591781893
       type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
       data:
         FormulaValue: IntList.Add(IntList.Count);
@@ -1110,7 +1108,7 @@ MonoBehaviour:
   TestedFunctions:
     FunctionsList:
     - rid: 3394867647047008474
-    - rid: 3394867647047008458
+    - rid: 3394867664093446477
     GlobalVariables:
     - FieldName: PairSourceList
       Value:
@@ -1328,78 +1326,6 @@ MonoBehaviour:
       InEdition: 0
       EditValue: PairCount
       AcceptAnyMethod: 0
-    - FieldName: i
-      Value:
-        rid: 3394867647047008473
-      SupportedTypes:
-      - m_Name: AnyTypeReference
-        m_AssemblyQualifiedName: VisualFunctions.AnyTypeReference, VisualFunctions,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: BoolReference
-        m_AssemblyQualifiedName: VisualFunctions.BoolReference, VisualFunctions,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: ComponentOfGameObjectReference
-        m_AssemblyQualifiedName: VisualFunctions.ComponentOfGameObjectReference,
-          VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: FloatReference
-        m_AssemblyQualifiedName: VisualFunctions.FloatReference, VisualFunctions,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: IntReference
-        m_AssemblyQualifiedName: VisualFunctions.IntReference, VisualFunctions, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: ListOfReference
-        m_AssemblyQualifiedName: VisualFunctions.ListOfReference, VisualFunctions,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: StringReference
-        m_AssemblyQualifiedName: VisualFunctions.StringReference, VisualFunctions,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: AnimationCurveReference
-        m_AssemblyQualifiedName: VisualFunctions.AnimationCurveReference, VisualFunctions,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: QuaternionReference
-        m_AssemblyQualifiedName: VisualFunctions.QuaternionReference, VisualFunctions,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: RectReference
-        m_AssemblyQualifiedName: VisualFunctions.RectReference, VisualFunctions,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: ScriptableObjectReference
-        m_AssemblyQualifiedName: VisualFunctions.ScriptableObjectReference, VisualFunctions,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: Vector2Reference
-        m_AssemblyQualifiedName: VisualFunctions.Vector2Reference, VisualFunctions,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: Vector3Reference
-        m_AssemblyQualifiedName: VisualFunctions.Vector3Reference, VisualFunctions,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: CustomFunction
-        m_AssemblyQualifiedName: VisualFunctions.CustomFunction, VisualFunctions,
-          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: CustomValue
-        m_AssemblyQualifiedName: VisualFunctions.CustomValue, VisualFunctions, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      - m_Name: Formula
-        m_AssemblyQualifiedName: VisualFunctions.Formula, VisualFunctions, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      AllowRename: 0
-      InEdition: 0
-      EditValue: i
-      AcceptAnyMethod: 0
     AllowGlobalVariables: 1
     AllowImport: 1
     FoldoutOpen: 1
@@ -1415,46 +1341,6 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 3394867647047008458
-      type: {class: Loop, ns: VisualFunctions, asm: VisualFunctions}
-      data:
-        FoldoutOpen: 1
-        Enabled: 1
-        Inputs:
-        - FieldName: Condition
-          Value:
-            rid: 3394867647047008628
-          SupportedTypes: []
-          AllowRename: 0
-          InEdition: 0
-          EditValue: 
-          AcceptAnyMethod: 1
-        Outputs: []
-        EditableAttributes:
-        - FunctionsToLoop
-        AllowAddInputs: 1
-        FunctionInputSettings:
-          SupportedTypes: []
-          PrefixName: 
-          CanCallMethods: 1
-          AllowVoidMethods: 0
-        AllowAddOutputs: 0
-        FunctionOutputSettings:
-          SupportedTypes: []
-          PrefixName: 
-          CanCallMethods: 0
-          AllowVoidMethods: 0
-        FunctionsToLoop:
-          FunctionsList:
-          - rid: 3394867647047008466
-          GlobalVariables: []
-          AllowGlobalVariables: 0
-          AllowImport: 0
-          FoldoutOpen: 1
-          GlobalValuesFoldoutOpen: 1
-          TemporaryGlobalVariables: []
-          ImportedFields: []
-          ImportedFieldsFoldoutOpen: 1
     - rid: 3394867647047008460
       type: {class: IntReference, ns: VisualFunctions, asm: VisualFunctions}
       data:
@@ -1480,41 +1366,6 @@ MonoBehaviour:
             rid: -2
         Variable: {fileID: 11400000, guid: 762da617fbe09394b8af04822a47b441, type: 2}
         DisplayedInInspector: 0
-    - rid: 3394867647047008466
-      type: {class: Evaluate, ns: VisualFunctions, asm: VisualFunctions}
-      data:
-        FoldoutOpen: 1
-        Enabled: 1
-        Inputs:
-        - FieldName: Formula
-          Value:
-            rid: 3394867647047008629
-          SupportedTypes: []
-          AllowRename: 0
-          InEdition: 0
-          EditValue: 
-          AcceptAnyMethod: 1
-        Outputs: []
-        EditableAttributes: []
-        AllowAddInputs: 1
-        FunctionInputSettings:
-          SupportedTypes: []
-          PrefixName: 
-          CanCallMethods: 1
-          AllowVoidMethods: 1
-        AllowAddOutputs: 0
-        FunctionOutputSettings:
-          SupportedTypes: []
-          PrefixName: 
-          CanCallMethods: 0
-          AllowVoidMethods: 0
-    - rid: 3394867647047008473
-      type: {class: IntReference, ns: VisualFunctions, asm: VisualFunctions}
-      data:
-        UseLocal: 1
-        LocalValue: 0
-        Variable: {fileID: 0}
-        DisplayedInInspector: 0
     - rid: 3394867647047008474
       type: {class: Evaluate, ns: VisualFunctions, asm: VisualFunctions}
       data:
@@ -1523,7 +1374,7 @@ MonoBehaviour:
         Inputs:
         - FieldName: Formula
           Value:
-            rid: 3394867647047008627
+            rid: 3394867664591781888
           SupportedTypes: []
           AllowRename: 0
           InEdition: 0
@@ -1543,23 +1394,117 @@ MonoBehaviour:
           PrefixName: 
           CanCallMethods: 0
           AllowVoidMethods: 0
-    - rid: 3394867647047008627
+    - rid: 3394867664093446477
+      type: {class: For, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FoldoutOpen: 1
+        Enabled: 1
+        Inputs:
+        - FieldName: Loops
+          Value:
+            rid: 3394867664591781889
+          SupportedTypes: []
+          AllowRename: 0
+          InEdition: 0
+          EditValue: 
+          AcceptAnyMethod: 1
+        - FieldName: Index
+          Value:
+            rid: 3394867664591781890
+          SupportedTypes: []
+          AllowRename: 1
+          InEdition: 0
+          EditValue: 
+          AcceptAnyMethod: 0
+        - FieldName: Step
+          Value:
+            rid: 3394867664591781891
+          SupportedTypes: []
+          AllowRename: 1
+          InEdition: 0
+          EditValue: 
+          AcceptAnyMethod: 0
+        Outputs: []
+        EditableAttributes:
+        - FunctionsToLoop
+        AllowAddInputs: 0
+        FunctionInputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 0
+          AllowVoidMethods: 0
+        AllowAddOutputs: 0
+        FunctionOutputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 0
+          AllowVoidMethods: 0
+        FunctionsToLoop:
+          FunctionsList:
+          - rid: 3394867664093446481
+          GlobalVariables: []
+          AllowGlobalVariables: 0
+          AllowImport: 0
+          FoldoutOpen: 1
+          GlobalValuesFoldoutOpen: 1
+          TemporaryGlobalVariables: []
+          ImportedFields: []
+          ImportedFieldsFoldoutOpen: 1
+    - rid: 3394867664093446481
+      type: {class: Evaluate, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FoldoutOpen: 1
+        Enabled: 1
+        Inputs:
+        - FieldName: Formula
+          Value:
+            rid: 3394867664591781892
+          SupportedTypes: []
+          AllowRename: 0
+          InEdition: 0
+          EditValue: 
+          AcceptAnyMethod: 1
+        Outputs: []
+        EditableAttributes: []
+        AllowAddInputs: 1
+        FunctionInputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 1
+          AllowVoidMethods: 1
+        AllowAddOutputs: 0
+        FunctionOutputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 0
+          AllowVoidMethods: 0
+    - rid: 3394867664591781888
       type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
       data:
-        FormulaValue: 'i = 0;
-
-          ResultList.Clear();'
-    - rid: 3394867647047008628
+        FormulaValue: ResultList.Clear();
+    - rid: 3394867664591781889
       type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
       data:
-        FormulaValue: i < PairSourceList.Count
-    - rid: 3394867647047008629
+        FormulaValue: PairSourceList.Count
+    - rid: 3394867664591781890
+      type: {class: IntReference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 1
+        LocalValue: 0
+        Variable: {fileID: 0}
+        DisplayedInInspector: 0
+    - rid: 3394867664591781891
+      type: {class: IntReference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 1
+        LocalValue: 2
+        Variable: {fileID: 0}
+        DisplayedInInspector: 0
+    - rid: 3394867664591781892
       type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
       data:
-        FormulaValue: 'ResultList.Add(PairSourceList[i] * PairSourceList[i + 1]);
-
-          i
-          += 2;'
+        FormulaValue: ResultList.Add(PairSourceList[Index] * PairSourceList[Index
+          + 1]);
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
