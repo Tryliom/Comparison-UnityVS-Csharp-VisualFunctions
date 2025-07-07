@@ -119,6 +119,795 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &6881645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6881646}
+  m_Layer: 0
+  m_Name: ACTION TESTS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6881646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6881645}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1841815206}
+  - {fileID: 1712612120}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &47381243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 47381244}
+  - component: {fileID: 47381247}
+  - component: {fileID: 47381246}
+  - component: {fileID: 47381245}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &47381244
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47381243}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1140496423}
+  - {fileID: 161093652}
+  - {fileID: 1869239428}
+  m_Father: {fileID: 1841815206}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &47381245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47381243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &47381246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47381243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &47381247
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47381243}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!1 &48712444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 48712445}
+  - component: {fileID: 48712447}
+  - component: {fileID: 48712446}
+  - component: {fileID: 48712449}
+  - component: {fileID: 48712448}
+  m_Layer: 0
+  m_Name: CodeTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &48712445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48712444}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5, y: -3, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1712612120}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &48712446
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48712444}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.1
+--- !u!212 &48712447
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48712444}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.2, y: 0.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &48712448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48712444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01cd9025b083446da7de905184ccb26b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectToToggle: {fileID: 1432016027}
+--- !u!50 &48712449
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48712444}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 2
+--- !u!1 &161093651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 161093652}
+  - component: {fileID: 161093655}
+  - component: {fileID: 161093654}
+  - component: {fileID: 161093653}
+  - component: {fileID: 161093656}
+  m_Layer: 5
+  m_Name: VFButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &161093652
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161093651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1093671730}
+  m_Father: {fileID: 47381244}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 51.6}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &161093653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161093651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 161093654}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 161093656}
+        m_TargetAssemblyTypeName: VisualFunctions.FunctionOnAction, VisualFunctions
+        m_MethodName: LaunchFunctions
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &161093654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161093651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &161093655
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161093651}
+  m_CullTransparentMesh: 1
+--- !u!114 &161093656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161093651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa1ff55ebc484d998ebea65139868450, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _onAction:
+    FunctionsList:
+    - rid: 3394867664591781962
+    GlobalVariables:
+    - FieldName: text
+      Value:
+        rid: 3394867664591781964
+      SupportedTypes:
+      - m_Name: AnyTypeReference
+        m_AssemblyQualifiedName: VisualFunctions.AnyTypeReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: BoolReference
+        m_AssemblyQualifiedName: VisualFunctions.BoolReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ComponentOfGameObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ComponentOfGameObjectReference,
+          VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: FloatReference
+        m_AssemblyQualifiedName: VisualFunctions.FloatReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: IntReference
+        m_AssemblyQualifiedName: VisualFunctions.IntReference, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ListOfReference
+        m_AssemblyQualifiedName: VisualFunctions.ListOfReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: StringReference
+        m_AssemblyQualifiedName: VisualFunctions.StringReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: AnimationCurveReference
+        m_AssemblyQualifiedName: VisualFunctions.AnimationCurveReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: QuaternionReference
+        m_AssemblyQualifiedName: VisualFunctions.QuaternionReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: RectReference
+        m_AssemblyQualifiedName: VisualFunctions.RectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ScriptableObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ScriptableObjectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector2Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector2Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector3Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector3Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomFunction
+        m_AssemblyQualifiedName: VisualFunctions.CustomFunction, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomValue
+        m_AssemblyQualifiedName: VisualFunctions.CustomValue, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Formula
+        m_AssemblyQualifiedName: VisualFunctions.Formula, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      AllowRename: 0
+      InEdition: 0
+      EditValue: text
+      AcceptAnyMethod: 0
+    - FieldName: click
+      Value:
+        rid: 3394867664591781965
+      SupportedTypes:
+      - m_Name: AnyTypeReference
+        m_AssemblyQualifiedName: VisualFunctions.AnyTypeReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: BoolReference
+        m_AssemblyQualifiedName: VisualFunctions.BoolReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ComponentOfGameObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ComponentOfGameObjectReference,
+          VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: FloatReference
+        m_AssemblyQualifiedName: VisualFunctions.FloatReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: IntReference
+        m_AssemblyQualifiedName: VisualFunctions.IntReference, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ListOfReference
+        m_AssemblyQualifiedName: VisualFunctions.ListOfReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: StringReference
+        m_AssemblyQualifiedName: VisualFunctions.StringReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: AnimationCurveReference
+        m_AssemblyQualifiedName: VisualFunctions.AnimationCurveReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: QuaternionReference
+        m_AssemblyQualifiedName: VisualFunctions.QuaternionReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: RectReference
+        m_AssemblyQualifiedName: VisualFunctions.RectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ScriptableObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ScriptableObjectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector2Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector2Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector3Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector3Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomFunction
+        m_AssemblyQualifiedName: VisualFunctions.CustomFunction, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomValue
+        m_AssemblyQualifiedName: VisualFunctions.CustomValue, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Formula
+        m_AssemblyQualifiedName: VisualFunctions.Formula, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      AllowRename: 0
+      InEdition: 0
+      EditValue: click
+      AcceptAnyMethod: 0
+    AllowGlobalVariables: 1
+    AllowImport: 1
+    FoldoutOpen: 1
+    GlobalValuesFoldoutOpen: 1
+    TemporaryGlobalVariables: []
+    ImportedFields: []
+    ImportedFieldsFoldoutOpen: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 3394867664591781962
+      type: {class: Evaluate, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FoldoutOpen: 1
+        Enabled: 1
+        Inputs:
+        - FieldName: Formula
+          Value:
+            rid: 3394867664591782594
+          SupportedTypes: []
+          AllowRename: 0
+          InEdition: 0
+          EditValue: 
+          AcceptAnyMethod: 1
+        Outputs: []
+        EditableAttributes: []
+        AllowAddInputs: 1
+        FunctionInputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 1
+          AllowVoidMethods: 1
+        AllowAddOutputs: 0
+        FunctionOutputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 0
+          AllowVoidMethods: 0
+    - rid: 3394867664591781964
+      type: {class: ComponentOfGameObjectReference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 1
+        LocalValue:
+          GameObject: {fileID: 1093671729}
+          Component: {fileID: 1093671731}
+        Variable: {fileID: 0}
+        DisplayedInInspector: 0
+    - rid: 3394867664591781965
+      type: {class: IntReference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 1
+        LocalValue: 0
+        Variable: {fileID: 0}
+        DisplayedInInspector: 0
+    - rid: 3394867664591782594
+      type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FormulaValue: 'click++;
+
+          text.text = click;'
+--- !u!1 &315065417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 315065418}
+  - component: {fileID: 315065419}
+  - component: {fileID: 315065420}
+  m_Layer: 0
+  m_Name: PlayerObject
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &315065418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315065417}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.29, y: 2.03, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1712612120}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &315065419
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315065417}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.1, y: 0.1}
+  m_EdgeRadius: 0
+--- !u!212 &315065420
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315065417}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &350118382
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,7 +1084,7 @@ MonoBehaviour:
         Inputs:
         - FieldName: Formula
           Value:
-            rid: 3394867664591781895
+            rid: 3394867664591782602
           SupportedTypes: []
           AllowRename: 0
           InEdition: 0
@@ -322,7 +1111,7 @@ MonoBehaviour:
         LocalValue: 0
         Variable: {fileID: 11400000, guid: 29b42b49248be444e9a6104a29fad88e, type: 2}
         DisplayedInInspector: 0
-    - rid: 3394867664591781895
+    - rid: 3394867664591782602
       type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
       data:
         FormulaValue: Increment++;
@@ -670,7 +1459,7 @@ MonoBehaviour:
         Inputs:
         - FieldName: Formula
           Value:
-            rid: 3394867664591781894
+            rid: 3394867664591782601
           SupportedTypes: []
           AllowRename: 0
           InEdition: 0
@@ -704,7 +1493,7 @@ MonoBehaviour:
         LocalValue: 0
         Variable: {fileID: 11400000, guid: 538b449f0aa365c4788301c3afbe6708, type: 2}
         DisplayedInInspector: 0
-    - rid: 3394867664591781894
+    - rid: 3394867664591782601
       type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
       data:
         FormulaValue: "Vec = new Vector2(\n\tRandom.Range(-RandRange, RandRange),
@@ -743,6 +1532,963 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Vec2","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!1 &1093671729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1093671730}
+  - component: {fileID: 1093671732}
+  - component: {fileID: 1093671731}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1093671730
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093671729}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 161093652}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1093671731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093671729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 0
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 0
+  m_fontSizeMax: 0
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1093671732
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093671729}
+  m_CullTransparentMesh: 1
+--- !u!1 &1140496422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1140496423}
+  - component: {fileID: 1140496426}
+  - component: {fileID: 1140496425}
+  - component: {fileID: 1140496424}
+  - component: {fileID: 1140496427}
+  m_Layer: 5
+  m_Name: CodeButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1140496423
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140496422}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2122913081}
+  m_Father: {fileID: 47381244}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1140496424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140496422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1140496425}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1140496427}
+        m_TargetAssemblyTypeName: ButtonClick, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1140496425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140496422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1140496426
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140496422}
+  m_CullTransparentMesh: 1
+--- !u!114 &1140496427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140496422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0fc5bfe65b4be285295bda1b206178, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buttonText: {fileID: 2122913082}
+--- !u!1 &1306179221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1306179222}
+  - component: {fileID: 1306179224}
+  - component: {fileID: 1306179223}
+  - component: {fileID: 1306179225}
+  - component: {fileID: 1306179226}
+  m_Layer: 0
+  m_Name: VFTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1306179222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306179221}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: -3, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1712612120}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1306179223
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306179221}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.1
+--- !u!212 &1306179224
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306179221}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.2, y: 0.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1306179225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306179221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456d8f0ed5ad42f3a1b479df8c7ff476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _triggerVariable: {fileID: 11400000, guid: 76293cdbe83f95b45a441573c1233fe9, type: 2}
+  _onEnter:
+    FunctionsList:
+    - rid: 3394867664591782533
+    GlobalVariables:
+    - FieldName: other
+      Value:
+        rid: 3394867664591782535
+      SupportedTypes:
+      - m_Name: AnyTypeReference
+        m_AssemblyQualifiedName: VisualFunctions.AnyTypeReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: BoolReference
+        m_AssemblyQualifiedName: VisualFunctions.BoolReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ComponentOfGameObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ComponentOfGameObjectReference,
+          VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: FloatReference
+        m_AssemblyQualifiedName: VisualFunctions.FloatReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: IntReference
+        m_AssemblyQualifiedName: VisualFunctions.IntReference, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ListOfReference
+        m_AssemblyQualifiedName: VisualFunctions.ListOfReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: StringReference
+        m_AssemblyQualifiedName: VisualFunctions.StringReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: AnimationCurveReference
+        m_AssemblyQualifiedName: VisualFunctions.AnimationCurveReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: QuaternionReference
+        m_AssemblyQualifiedName: VisualFunctions.QuaternionReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: RectReference
+        m_AssemblyQualifiedName: VisualFunctions.RectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ScriptableObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ScriptableObjectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector2Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector2Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector3Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector3Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomFunction
+        m_AssemblyQualifiedName: VisualFunctions.CustomFunction, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomValue
+        m_AssemblyQualifiedName: VisualFunctions.CustomValue, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Formula
+        m_AssemblyQualifiedName: VisualFunctions.Formula, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      AllowRename: 0
+      InEdition: 0
+      EditValue: other
+      AcceptAnyMethod: 0
+    - FieldName: toggle
+      Value:
+        rid: 3394867664591782536
+      SupportedTypes:
+      - m_Name: AnyTypeReference
+        m_AssemblyQualifiedName: VisualFunctions.AnyTypeReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: BoolReference
+        m_AssemblyQualifiedName: VisualFunctions.BoolReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ComponentOfGameObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ComponentOfGameObjectReference,
+          VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: FloatReference
+        m_AssemblyQualifiedName: VisualFunctions.FloatReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: IntReference
+        m_AssemblyQualifiedName: VisualFunctions.IntReference, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ListOfReference
+        m_AssemblyQualifiedName: VisualFunctions.ListOfReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: StringReference
+        m_AssemblyQualifiedName: VisualFunctions.StringReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: AnimationCurveReference
+        m_AssemblyQualifiedName: VisualFunctions.AnimationCurveReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: QuaternionReference
+        m_AssemblyQualifiedName: VisualFunctions.QuaternionReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: RectReference
+        m_AssemblyQualifiedName: VisualFunctions.RectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ScriptableObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ScriptableObjectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector2Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector2Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector3Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector3Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomFunction
+        m_AssemblyQualifiedName: VisualFunctions.CustomFunction, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomValue
+        m_AssemblyQualifiedName: VisualFunctions.CustomValue, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Formula
+        m_AssemblyQualifiedName: VisualFunctions.Formula, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      AllowRename: 0
+      InEdition: 0
+      EditValue: toggle
+      AcceptAnyMethod: 0
+    AllowGlobalVariables: 1
+    AllowImport: 1
+    FoldoutOpen: 1
+    GlobalValuesFoldoutOpen: 1
+    TemporaryGlobalVariables: []
+    ImportedFields: []
+    ImportedFieldsFoldoutOpen: 0
+  _onExit:
+    FunctionsList:
+    - rid: 3394867664591782537
+    GlobalVariables:
+    - FieldName: other
+      Value:
+        rid: 3394867664591782539
+      SupportedTypes:
+      - m_Name: AnyTypeReference
+        m_AssemblyQualifiedName: VisualFunctions.AnyTypeReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: BoolReference
+        m_AssemblyQualifiedName: VisualFunctions.BoolReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ComponentOfGameObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ComponentOfGameObjectReference,
+          VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: FloatReference
+        m_AssemblyQualifiedName: VisualFunctions.FloatReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: IntReference
+        m_AssemblyQualifiedName: VisualFunctions.IntReference, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ListOfReference
+        m_AssemblyQualifiedName: VisualFunctions.ListOfReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: StringReference
+        m_AssemblyQualifiedName: VisualFunctions.StringReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: AnimationCurveReference
+        m_AssemblyQualifiedName: VisualFunctions.AnimationCurveReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: QuaternionReference
+        m_AssemblyQualifiedName: VisualFunctions.QuaternionReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: RectReference
+        m_AssemblyQualifiedName: VisualFunctions.RectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ScriptableObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ScriptableObjectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector2Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector2Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector3Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector3Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomFunction
+        m_AssemblyQualifiedName: VisualFunctions.CustomFunction, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomValue
+        m_AssemblyQualifiedName: VisualFunctions.CustomValue, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Formula
+        m_AssemblyQualifiedName: VisualFunctions.Formula, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      AllowRename: 0
+      InEdition: 0
+      EditValue: other
+      AcceptAnyMethod: 0
+    - FieldName: toggle
+      Value:
+        rid: 3394867664591782540
+      SupportedTypes:
+      - m_Name: AnyTypeReference
+        m_AssemblyQualifiedName: VisualFunctions.AnyTypeReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: BoolReference
+        m_AssemblyQualifiedName: VisualFunctions.BoolReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ComponentOfGameObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ComponentOfGameObjectReference,
+          VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: FloatReference
+        m_AssemblyQualifiedName: VisualFunctions.FloatReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: IntReference
+        m_AssemblyQualifiedName: VisualFunctions.IntReference, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ListOfReference
+        m_AssemblyQualifiedName: VisualFunctions.ListOfReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: StringReference
+        m_AssemblyQualifiedName: VisualFunctions.StringReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: AnimationCurveReference
+        m_AssemblyQualifiedName: VisualFunctions.AnimationCurveReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: QuaternionReference
+        m_AssemblyQualifiedName: VisualFunctions.QuaternionReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: RectReference
+        m_AssemblyQualifiedName: VisualFunctions.RectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: ScriptableObjectReference
+        m_AssemblyQualifiedName: VisualFunctions.ScriptableObjectReference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector2Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector2Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Vector3Reference
+        m_AssemblyQualifiedName: VisualFunctions.Vector3Reference, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomFunction
+        m_AssemblyQualifiedName: VisualFunctions.CustomFunction, VisualFunctions,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: CustomValue
+        m_AssemblyQualifiedName: VisualFunctions.CustomValue, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Formula
+        m_AssemblyQualifiedName: VisualFunctions.Formula, VisualFunctions, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: VisualFunctions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      AllowRename: 0
+      InEdition: 0
+      EditValue: toggle
+      AcceptAnyMethod: 0
+    AllowGlobalVariables: 1
+    AllowImport: 1
+    FoldoutOpen: 1
+    GlobalValuesFoldoutOpen: 1
+    TemporaryGlobalVariables: []
+    ImportedFields: []
+    ImportedFieldsFoldoutOpen: 0
+  _onStay:
+    FunctionsList: []
+    GlobalVariables: []
+    AllowGlobalVariables: 1
+    AllowImport: 1
+    FoldoutOpen: 0
+    GlobalValuesFoldoutOpen: 1
+    TemporaryGlobalVariables: []
+    ImportedFields: []
+    ImportedFieldsFoldoutOpen: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 3394867664591782533
+      type: {class: Evaluate, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FoldoutOpen: 1
+        Enabled: 1
+        Inputs:
+        - FieldName: Formula
+          Value:
+            rid: 3394867664591782592
+          SupportedTypes: []
+          AllowRename: 0
+          InEdition: 0
+          EditValue: 
+          AcceptAnyMethod: 1
+        Outputs: []
+        EditableAttributes: []
+        AllowAddInputs: 1
+        FunctionInputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 1
+          AllowVoidMethods: 1
+        AllowAddOutputs: 0
+        FunctionOutputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 0
+          AllowVoidMethods: 0
+    - rid: 3394867664591782535
+      type: {class: ComponentOfGameObjectReference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 0
+        LocalValue:
+          GameObject: {fileID: 0}
+          Component: {fileID: 0}
+        Variable: {fileID: 11400000, guid: 76293cdbe83f95b45a441573c1233fe9, type: 2}
+        DisplayedInInspector: 0
+    - rid: 3394867664591782536
+      type: {class: ComponentOfGameObjectReference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 1
+        LocalValue:
+          GameObject: {fileID: 1432016027}
+          Component: {fileID: 0}
+        Variable: {fileID: 0}
+        DisplayedInInspector: 0
+    - rid: 3394867664591782537
+      type: {class: Evaluate, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FoldoutOpen: 1
+        Enabled: 1
+        Inputs:
+        - FieldName: Formula
+          Value:
+            rid: 3394867664591782593
+          SupportedTypes: []
+          AllowRename: 0
+          InEdition: 0
+          EditValue: 
+          AcceptAnyMethod: 1
+        Outputs: []
+        EditableAttributes: []
+        AllowAddInputs: 1
+        FunctionInputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 1
+          AllowVoidMethods: 1
+        AllowAddOutputs: 0
+        FunctionOutputSettings:
+          SupportedTypes: []
+          PrefixName: 
+          CanCallMethods: 0
+          AllowVoidMethods: 0
+    - rid: 3394867664591782539
+      type: {class: ComponentOfGameObjectReference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 0
+        LocalValue:
+          GameObject: {fileID: 0}
+          Component: {fileID: 0}
+        Variable: {fileID: 11400000, guid: 76293cdbe83f95b45a441573c1233fe9, type: 2}
+        DisplayedInInspector: 0
+    - rid: 3394867664591782540
+      type: {class: ComponentOfGameObjectReference, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        UseLocal: 1
+        LocalValue:
+          GameObject: {fileID: 1432016027}
+          Component: {fileID: 0}
+        Variable: {fileID: 0}
+        DisplayedInInspector: 0
+    - rid: 3394867664591782592
+      type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FormulaValue: 'other.CompareTag("Player") ? toggle.SetActive(false) : ""'
+    - rid: 3394867664591782593
+      type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
+      data:
+        FormulaValue: 'other.CompareTag("Player") ? toggle.SetActive(true) : ""'
+--- !u!50 &1306179226
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306179221}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 2
+--- !u!1 &1432016027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1432016028}
+  - component: {fileID: 1432016029}
+  m_Layer: 0
+  m_Name: ObjectToToggle
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1432016028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432016027}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6, y: 2.92, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1712612120}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1432016029
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432016027}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1511611838
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,6 +2549,246 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1540431922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1540431923}
+  - component: {fileID: 1540431925}
+  - component: {fileID: 1540431924}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1540431923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540431922}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1841815206}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1540431924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540431922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1540431925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540431922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!1 &1712612119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1712612120}
+  m_Layer: 0
+  m_Name: 02 - Collider Event
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1712612120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712612119}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 315065418}
+  - {fileID: 1432016028}
+  - {fileID: 48712445}
+  - {fileID: 1306179222}
+  - {fileID: 2096863944}
+  m_Father: {fileID: 6881646}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1747187936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1747187937}
+  - component: {fileID: 1747187939}
+  - component: {fileID: 1747187938}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1747187937
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747187936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1869239428}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1747187938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747187936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Button
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 0
+  m_fontSizeMax: 0
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1747187939
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747187936}
+  m_CullTransparentMesh: 1
 --- !u!1 &1816980790
 GameObject:
   m_ObjectHideFlags: 0
@@ -947,7 +2933,7 @@ MonoBehaviour:
         Inputs:
         - FieldName: Formula
           Value:
-            rid: 3394867664591781893
+            rid: 3394867664591782600
           SupportedTypes: []
           AllowRename: 0
           InEdition: 0
@@ -980,7 +2966,7 @@ MonoBehaviour:
       type: {class: 'ListOf`1[[System.Int32, mscorlib]]', ns: VisualFunctions, asm: VisualFunctions}
       data:
         ListValue: 
-    - rid: 3394867664591781893
+    - rid: 3394867664591782600
       type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
       data:
         FormulaValue: IntList.Add(IntList.Count);
@@ -1018,6 +3004,39 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!1 &1841815205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1841815206}
+  m_Layer: 0
+  m_Name: 01 - Button Click
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1841815206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841815205}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1540431923}
+  - {fileID: 47381244}
+  m_Father: {fileID: 6881646}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1863529621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1374,7 +3393,7 @@ MonoBehaviour:
         Inputs:
         - FieldName: Formula
           Value:
-            rid: 3394867664591781888
+            rid: 3394867664591782595
           SupportedTypes: []
           AllowRename: 0
           InEdition: 0
@@ -1402,7 +3421,7 @@ MonoBehaviour:
         Inputs:
         - FieldName: Loops
           Value:
-            rid: 3394867664591781889
+            rid: 3394867664591782596
           SupportedTypes: []
           AllowRename: 0
           InEdition: 0
@@ -1410,7 +3429,7 @@ MonoBehaviour:
           AcceptAnyMethod: 1
         - FieldName: Index
           Value:
-            rid: 3394867664591781890
+            rid: 3394867664591782597
           SupportedTypes: []
           AllowRename: 1
           InEdition: 0
@@ -1418,7 +3437,7 @@ MonoBehaviour:
           AcceptAnyMethod: 0
         - FieldName: Step
           Value:
-            rid: 3394867664591781891
+            rid: 3394867664591782598
           SupportedTypes: []
           AllowRename: 1
           InEdition: 0
@@ -1458,7 +3477,7 @@ MonoBehaviour:
         Inputs:
         - FieldName: Formula
           Value:
-            rid: 3394867664591781892
+            rid: 3394867664591782599
           SupportedTypes: []
           AllowRename: 0
           InEdition: 0
@@ -1478,33 +3497,477 @@ MonoBehaviour:
           PrefixName: 
           CanCallMethods: 0
           AllowVoidMethods: 0
-    - rid: 3394867664591781888
+    - rid: 3394867664591782595
       type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
       data:
         FormulaValue: ResultList.Clear();
-    - rid: 3394867664591781889
+    - rid: 3394867664591782596
       type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
       data:
         FormulaValue: PairSourceList.Count
-    - rid: 3394867664591781890
+    - rid: 3394867664591782597
       type: {class: IntReference, ns: VisualFunctions, asm: VisualFunctions}
       data:
         UseLocal: 1
         LocalValue: 0
         Variable: {fileID: 0}
         DisplayedInInspector: 0
-    - rid: 3394867664591781891
+    - rid: 3394867664591782598
       type: {class: IntReference, ns: VisualFunctions, asm: VisualFunctions}
       data:
         UseLocal: 1
         LocalValue: 2
         Variable: {fileID: 0}
         DisplayedInInspector: 0
-    - rid: 3394867664591781892
+    - rid: 3394867664591782599
       type: {class: Formula, ns: VisualFunctions, asm: VisualFunctions}
       data:
         FormulaValue: ResultList.Add(PairSourceList[Index] * PairSourceList[Index
           + 1]);
+--- !u!1 &1869239427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1869239428}
+  - component: {fileID: 1869239431}
+  - component: {fileID: 1869239430}
+  - component: {fileID: 1869239429}
+  - component: {fileID: 1869239433}
+  - component: {fileID: 1869239432}
+  m_Layer: 5
+  m_Name: VSButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1869239428
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869239427}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1747187937}
+  m_Father: {fileID: 47381244}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 102.6}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1869239429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869239427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1869239430}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1869239430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869239427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1869239431
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869239427}
+  m_CullTransparentMesh: 1
+--- !u!114 &1869239432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869239427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 9952d9a968eb03149b9bf66a5a7c34d9, type: 2}
+--- !u!114 &1869239433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869239427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Clicks","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Text","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
+      Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1747187938}
+--- !u!1 &2096863943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2096863944}
+  - component: {fileID: 2096863946}
+  - component: {fileID: 2096863945}
+  - component: {fileID: 2096863947}
+  m_Layer: 0
+  m_Name: VSTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2096863944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096863943}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -3, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1712612120}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &2096863945
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096863943}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.1
+--- !u!212 &2096863946
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096863943}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.2, y: 0.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!50 &2096863947
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096863943}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 2
+--- !u!1 &2122913080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2122913081}
+  - component: {fileID: 2122913083}
+  - component: {fileID: 2122913082}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2122913081
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122913080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1140496423}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2122913082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122913080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Button
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 0
+  m_fontSizeMax: 0
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2122913083
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122913080}
+  m_CullTransparentMesh: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1512,3 +3975,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1511611841}
   - {fileID: 523507740}
+  - {fileID: 6881646}
